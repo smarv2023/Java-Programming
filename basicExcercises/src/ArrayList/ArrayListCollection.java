@@ -19,6 +19,7 @@ public class ArrayListCollection {
 		// call a display method
 		display(items, "%nDisplay list contents with enchanced for statement:");
 		//add
+		
 		items.add("green");
 		items.add("yellow");
 		

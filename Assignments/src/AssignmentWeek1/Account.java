@@ -15,16 +15,16 @@ public class Account {
 
 	public void deposit(double depositAmount) {
 		if (depositAmount > 0.0) {
-			balance = balance + depositAmount;
+			this.balance = this.balance + depositAmount;
 		}
 	}
 	
 	public void withdraw(double withdrawAmount) {
-		if ((withdrawAmount > 0.0) && (balance >= withdrawAmount)) {
+		if ((withdrawAmount > 0.0) && (this.balance >= withdrawAmount)) {
 			//if (balance >= withdrawAmount) {
-				balance = balance - withdrawAmount;
+				this.balance = this.balance - withdrawAmount;
 		} else {
-			System.out.printf("$%.2f Decline insufficient funds %nYour remaining balance is: $%.2f%n", withdrawAmount, balance);
+			System.out.printf("$%.2f Decline insufficient funds %nYour remaining balance is: $%.2f%n", withdrawAmount, this.balance);
 		}
 	}
 	

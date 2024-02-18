@@ -8,7 +8,6 @@ public class printWmethod {
 			%s string value  %n newline place holder
 			%s"Welcome to" %n              %s"Java Programming!"%n
 		*/
-		 
 		 System.out.printf("%s%n%s%n", "Welcome to", "Java Programming!");
 
 	}

@@ -94,5 +94,12 @@ public class DemoFrame extends JFrame {
 		});
 		btnReset.setBounds(210, 167, 89, 23);
 		contentPane.add(btnReset);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(10, 191, 67, 59);
+		contentPane.add(panel);
+		
+		JButton btnNewButton = new JButton("New button");
+		panel.add(btnNewButton);
 	}
 }
