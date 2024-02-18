@@ -116,6 +116,7 @@ public class GUI{
         lblSalary.setVisible(false);
         txtSalary.setVisible(false);
         //panel.add(txtOutput);
+        txtOutput.setEditable(false);
         scrollPane.setBounds(10, 170, 365, 150);
         panel.add(scrollPane);
         
