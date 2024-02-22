@@ -1,6 +1,6 @@
-package Addition;
+package ErrorHandling;
 import javax.swing.JOptionPane;
-public class Addition {
+public class AdditionGUI {
 
 	public static void main(String[] args) {
 		// obtain user input from JOptionPane input dialogs
