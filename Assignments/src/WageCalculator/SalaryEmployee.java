@@ -29,7 +29,7 @@ public class SalaryEmployee extends Employee implements Payroll{
 		taxes = weeklySalary *0.15;
 		netPay = grossPay - taxes;
 	}
-	
+	@Override
 	public String toString() {
 		return String.format("Salary Employee Name: %s%nGross Pay: $%.2f%nTaxes: -$%.2f%nNet Pay: $%.2f%n%n", 
 				name, grossPay, taxes, netPay);
