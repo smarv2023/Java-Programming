@@ -10,6 +10,10 @@ import java.sql.Statement;
 import javax.swing.table.AbstractTableModel;
 
 public class ResultSetTable extends AbstractTableModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private final Connection connection;
 	private final Statement stmt;
 	private ResultSetMetaData metaData;

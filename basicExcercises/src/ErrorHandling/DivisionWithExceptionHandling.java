@@ -33,7 +33,7 @@ public class DivisionWithExceptionHandling {
 				System.out.printf("Zero is an invalid denominator.Please try again.%n%n");
 			}
 		} while (continueLoop);
-		
+		input.close();
 	}
 
 }

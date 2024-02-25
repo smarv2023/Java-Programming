@@ -16,12 +16,12 @@ public class Time2Test {
 		displayTime("t5: Time2 object t4 specified", t5);
 
 		// attempt to initialize t6 with invalid values
-		try {
+		/*try {
 		   Time2 t6 = new Time2(27, 74, 99); // invalid values
 		} catch (IllegalArgumentException e) {
-			System.out.printf("%nException while initializing t6: %s%n",
+			System.out.printf("%n Exception while initializing t6: %s%n",
 					e.getMessage());
-		}
+		}*/
 		
 		// invoke setTime() method
 		Time2 t7 = new Time2();

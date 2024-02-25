@@ -14,7 +14,7 @@ public class RandomNumbers {
 		    System.out.printf("number %d: %n", (numbers + 1));
 		    selected[numbers] = input.nextInt();
 		}
-
+		input.close();
 		SecureRandom randomNumbers = new SecureRandom();
 		int[] frequency = new int[50];
 		int numberOfRolls = 6000000;

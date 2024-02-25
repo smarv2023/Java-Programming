@@ -29,7 +29,11 @@ class LoanAccount {
 }
 
 public class MortgageCalculator extends JFrame {
-    private JTextField txtLoanAmount, txtInterestRate, txtTerm, txtHomeValue, txtMonthlyPayment;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JTextField txtLoanAmount, txtInterestRate, txtTerm, txtHomeValue, txtMonthlyPayment;
     private JButton btnCalculate, btnSubmit, btnExit;
     private ArrayList<LoanAccount> loanAccounts = new ArrayList<>();
 
