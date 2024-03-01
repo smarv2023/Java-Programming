@@ -23,7 +23,7 @@ import javax.swing.JScrollPane;
 
 public class MortgageCalculatorGUI extends JFrame {
 	
-	private ArrayList<LoanAccount> loanAccount = new ArrayList<>();
+	private ArrayList<LoanAccount> loanAccount = new ArrayList<LoanAccount>();
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textLoanAmount;
