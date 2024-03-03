@@ -11,6 +11,7 @@ import java.io.PrintWriter;
 /**
  * Servlet implementation class RegistrationServlet
  */
+@WebServlet("/register")
 public class RegistrationServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -29,7 +30,7 @@ public class RegistrationServlet extends HttpServlet {
             out.println("<font color=red size=5>Username already exists!<br/>");
             out.println("<a href='register.jsp'>Try Again</a>");
             out.println("</div>");
-            return; // Exit the method if the username already exists
+            return; // Exit the method if the user name already exists
 		}
 		
 		User userRegister = new User();

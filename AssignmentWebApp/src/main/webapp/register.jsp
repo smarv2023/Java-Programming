@@ -13,7 +13,7 @@
 		<h2>User Registration</h2>
 		<div class="contentR content">
 
-	    	<form method="post" action="RegistrationServlet">
+	    	<form method="post" action="register">
 	    		<table>
 	    			<tr>
 			        	<td><label for="firstName">First Name:</label></td>

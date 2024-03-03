@@ -11,7 +11,7 @@
 	<div class=container>
 		<h1>Welcome to my Assignment</h1>
 		<div class=content>
-			<form method="post" action="LoginServlet">
+			<form method="post" action="login">
 				<table>
 					<tr>
 						<th colspan="2">User Login</th>
