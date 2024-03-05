@@ -37,7 +37,7 @@ public class FileAndDirectoryInfo {
 					System.out.println(p);
 			}
 		} else {
-			System.out.printf("%s doew not exist%n", path);
+			System.out.printf("%s does not exist%n", path);
 		}
 	}
 }
