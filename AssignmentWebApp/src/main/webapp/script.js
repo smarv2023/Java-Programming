@@ -1,29 +1,29 @@
 /**
  * Front end validation
  */
-	function validateUser() {
-	    var txtUser = document.getElementById("txtUser").value;
-	    var regex = /^\S+$/;;
-	    return regex.test(txtUser);
-	}
+function validateUser() {
+    var txtUser = document.getElementById("txtUser").value;
+    var regex = /^\S+$/;;
+    return regex.test(txtUser);
+}
+
+function validateForm() {
+    if (!validateUser()) {
+        alert("Please enter a valid username.");
+        return false;
+    }
+    return true;
+}
+
+function ifNull() {
+	var txtPass = document.getElementById("txtPass").value;
 	
-	function validateForm() {
-	    if (!validateUser()) {
-	        alert("Please enter a valid username.");
-	        return false;
-	    }
-	    return true;
+	if (txtPass == "") {
+		alert("Please enter password")
+		return false;
 	}
-	
-	function ifNull() {
-		var txtPass = document.getElementById("txtPass").value;
-		
-		if (txtPass == "") {
-			alert("Please enter password")
-			return false;
-		}
-		return true;
-	}
+	return true;
+}
 	
 function stripInjection(input) {
 // Regular expression to remove potentially harmful characters and script tags
