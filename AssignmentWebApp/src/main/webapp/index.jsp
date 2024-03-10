@@ -33,7 +33,7 @@
 				</table>
 			</form>
 		</div>
-		<a href="register.jsp"><h3>Register New User</h3></a>
+		<h3><a href="register.jsp">Register New User</a></h3>
 	</div>
 	<script src="script.js"></script>
 </body>

@@ -17,6 +17,8 @@ public class FileAndDirectoryInfo {
 		// create Path object based on user input
 		Path path = Paths.get(input.nextLine());
 		
+		input.close();
+		
 		if (Files.exists(path)) {
 			// display file (or directory) information
 			System.out.printf("%n%s exists%n", path.getFileName());
