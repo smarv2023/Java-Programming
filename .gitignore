@@ -1,0 +1,61 @@
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA (if some team members use IntelliJ)
+.idea/
+*.iml
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Binary files
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.o
+*.obj
+
+# Compiled Java classes
+*.class
+
+# Generated files
+*.generated
+bin/
+gen/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp
+*.swo
+*~
+
+# Eclipse plugin-specific files
+.cproject
+*.pydevproject
+/.metadata/
